@@ -1,10 +1,10 @@
-import { Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Esplora = () => {
     return (
-        <div className="container">
-            <h2 className="text-light mb-4">Altro da esplorare</h2>
+        <Container className="mb-3">
+            <h2 className="text-light my-4">Altro da esplorare</h2>
             <Row>
                 <Col xs={12} md={4}>
                     <div className="mb-4">
@@ -81,7 +81,7 @@ const Esplora = () => {
 
 
             </Row>
-        </div>
+        </Container>
     );
 };
 

@@ -5,7 +5,7 @@ const SideBar = () => {
     return (
         <div className="d-flex flex-column text-white d-none d-md-block h-100vh w-25" style={{ backgroundColor: "#2a2a2a" }}>
             <div className="d-flex align-items-center pt-3 ps-3">
-                <p className="fw-bold fs-5"><i class="bi bi-apple"></i>Music</p>
+                <img src="../public/logos/music.svg" type="svg" alt="Logo Apple music" className="img-fluid" />
             </div>
             <div className="p-3">
                 <input type="search" placeholder="Cerca" className="w-100"></input>

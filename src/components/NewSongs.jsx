@@ -30,7 +30,7 @@ const NewSongs = () => {
     return (
 
         <Container>
-            <h2 className="text-light mb-4">Nuove uscite <i class="bi bi-caret-right-fill"></i></h2>
+            <h2 className="text-light my-4">Nuove uscite <i class="bi bi-caret-right-fill"></i></h2>
             <Row className="row-cols-3 row-cols-md-5">
                 {data.map((song, i) => (
                     <Col key={i} className="my-3">

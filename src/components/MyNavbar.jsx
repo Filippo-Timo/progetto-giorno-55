@@ -32,7 +32,7 @@ function MyNavbar() {
 
                     {/* LOGO DELLA APPLE */}
                     <div className="d-flex align-items-center">
-                        <i class="bi bi-apple"></i>
+                        <img src="../public/logos/music.svg" type="svg" alt="Prólogo con Abuelo" className="img-fluid" />
                     </div>
 
                     {/* TESTO ACCEDI */}
@@ -47,7 +47,7 @@ function MyNavbar() {
 
             {/* LAYOUT DA MD IN POI */}
             <Navbar
-                className="d-none d-md-flex py-3 px-4"
+                className="d-none d-md-flex py-3 px-4 mb-3"
                 style={{ backgroundColor: "#323232" }}
             >
                 <Container fluid className="d-flex justify-content-between align-items-center">
@@ -63,7 +63,7 @@ function MyNavbar() {
 
                     {/* LOGO CENTRALE DELLA APPLE */}
                     <div className="bg-secondary mx-3 py-2 rounded text-center" style={{ width: 200 }}>
-                        <i class="bi bi-apple"></i>
+                        <img src="../public/logos/apple.svg" type="svg" alt="Apple logo" className="img-fluid" />
                     </div>
 
                     {/* VOLUME E TASTINO ACCEDI */}

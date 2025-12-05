@@ -16,16 +16,16 @@ const Novita = () => {
         </Col>
       </Row>
       <Row>
-        {/* Primo Card per la versione sm */}
+        {/* Prima Card per la versione sm */}
         <Col xs={12} sm={6}>
           <Card className="mb-4">
-            <Card.Img variant="top" src="https://placedog.net/100" />
+            <Card.Img variant="top" src="../public/images/1a.png" type="png" />
           </Card>
         </Col>
         {/* Secondo Card per la versione sm */}
         <Col xs={12} sm={6}>
           <Card className="mb-4">
-            <Card.Img variant="top" src="https://placedog.net/100" />
+            <Card.Img variant="top" src="../public/images/1b.png" type="png" />
           </Card>
         </Col>
       </Row>
